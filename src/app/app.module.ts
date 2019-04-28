@@ -10,6 +10,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { CountPipePipe } from './count-pipe-pipe';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,11 +18,13 @@ import { CountPipePipe } from './count-pipe-pipe';
     FormsComponent,
     QuotesComponent,
     CountPipePipe,
+ 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

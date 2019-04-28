@@ -1,3 +1,4 @@
+<div class="jumbotron">
 <form class="myform" #quoteForm="ngForm" (ngSubmit)="saveQuote()">
   <br>
   <br>
@@ -8,21 +9,22 @@
       <h3 class="panel-title">Create Quote</h3>
     </div>
     <div class="form-group">
-      <label for="author">Author</label>
+      <label for="author">Original Author</label>
       <input type="text" class="form-control" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
     </div>
     <div class="form-group">
-      <label for="submitter">Submitter</label>
+      <label for="submitter">The Submitter</label>
       <input type="text" class="form-control" name="submitter" [(ngModel)]="newQuote.submitter" #submitter="ngModel">
     </div>
     <div class="form-group">
-      <label for="enterquote">Enter Quote</label>
+      <label for="enterquote">Write Quote</label>
       <textarea class="form-control" type="text" [(ngModel)]="newQuote.enterQuote" name="enterQuote"
         #enterquote="ngModel" rows="10"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="submit" class="btn btn-primary">Add Quote!</button>
     <br>
     <br>
     <br>
   </div>
+  
 </form>

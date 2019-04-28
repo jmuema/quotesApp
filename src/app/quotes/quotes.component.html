@@ -1,5 +1,6 @@
 <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+
 <div class="container-fluid">
   <hr width="80%">
   <div class="row">
@@ -12,10 +13,12 @@
       <br>
       <br>
       <br>
+      <div class="jumbotron">
       <div class="display-quotes" *ngFor='let quote of quotes, let i = index'>
         <blockquote>
           <h4 class="style">{{quote.enterQuote}}<br> <br> due on <br> {{quote.submitDate | date}}</h4>
         </blockquote>
+        
         <div class="details">
           <cite>--{{quote.author}}</cite>
           <br>
@@ -25,6 +28,8 @@
             (isPlus)='plusVote($event, i)' (isMinus)='minusVote($event, i)'> </app-details>
         </div>
       </div>
+      </div>
+    
     </div>
   </div>
 </div>
