@@ -10,7 +10,7 @@ You need the following to make edits to the repository
 2.Angular CLI
 3.NPM
 
-### Setup Instructions
+#### Setup Instructions
 1.Copy the clone link provided in the repository
 2.Start your command line
 3.Run the git clone command with the copied links
