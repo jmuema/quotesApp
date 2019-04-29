@@ -1,4 +1,29 @@
-# QuotesApp2
+# QuotesApp
+
+# By Joseph Muema.
+
+# Description 
+This is a simple angular project that allows one to write a quote to which people can be able to vote if your quotes was good or not.
+# Prerequisites
+You need the following to make edits to the repository
+1.Git
+2.Angular CLI
+3.NPM
+
+# Setup Instructions
+1.Copy the clone link provided in the repository
+2.Start your command line
+3.Run the git clone command with the copied links
+4.Make changes to the remote(s) used to point to your repository
+5.follow the angular instructions below.
+
+# Technology used.
+1.bootstrap
+2.NPM
+3.Angular
+4.Visual Studio Code
+
+# QuotesApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
