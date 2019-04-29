@@ -13,3 +13,6 @@ p{
   color: red;
   font-size: 110px;
 }
+body{
+  background-image: url('../assets/img/back1.jpeg');
+}
